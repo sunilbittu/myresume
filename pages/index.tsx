@@ -67,10 +67,6 @@ export default function Home() {
             <a href={`mailto:${bio.email}`}>{bio.email}</a>
           </p>
           <p>
-            <strong>Website</strong>{" "}
-            <a href={bio.website}>{new URL(bio.website).host}</a>
-          </p>
-          <p>
             <strong>GitHub</strong>{" "}
             <a href={bio.github}>{bio.github.replace("https://", "")}</a>
           </p>
