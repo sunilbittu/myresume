@@ -1,6 +1,6 @@
 export const data = {
   bio: {
-    name: "Sunil Bhuvanapalli",
+    name: "Sunil B",
     tagline: "Software Developer",
     email: "pavanksunil@gmail.com",
     github: "https://github.com/sunilbittu",
