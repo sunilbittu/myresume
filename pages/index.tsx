@@ -74,10 +74,12 @@ export default function Home() {
             <strong>LinkedIn</strong>{" "}
             <a href={bio.linkedin}>{bio.linkedin.replace("https://", "")}</a>
           </p>
+          <div style={{alignItems: "center"}}>
           <p><strong>Skills</strong></p>
           {bio.skills.map(skill =>  {
           return (<li key={skill}>{skill}</li>)
           })}
+          </div>
         </div>
 
         <div className={styles.right}>
